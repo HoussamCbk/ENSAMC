@@ -83,3 +83,38 @@
   | A <- B | B | ? | ? |
   | B <- A | B | B | ? |
   |C <- A - B | B | B | 0 |
+
+  - **Exercice 2 :**
+
+  ```
+  Algorithme : Mystere
+    A, B, C, p, d, t : ENTIER
+  DEBUT
+  /* Lecture des variables*/
+  LIRE(A,B,C)
+  SI (A<B) ALORS
+    SI (C>B) ALORS
+      p <- A
+      d <- B
+      t <- C
+    SINON
+      SI (A<C) ALORS
+        p <- A
+        d <- C
+        t <- B
+      SINON
+        p <- C
+        d <- A
+        t <- B
+  SINON
+    SI (C>A) ALORS
+
+  ```
+
+
+
+
+
+
+
+  
