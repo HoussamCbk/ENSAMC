@@ -152,7 +152,7 @@ Le nombre d'affectations : 3
    A←20 B←5 C←-10 D←2 X←12 Y←15
 - X*(B<C)+Y* NON(B<C)
 
-Puisuqe B<C n'est pas vérifié or "False" donc B<C prend "0" et Non(B<C) prend "1". Par suite l'expression X*(B<C)+Y* NON(B<C) = Y* NON(B<C) = Y*1 = Y = **15**.
+    Puisque B<C n'est pas vérifié or "False" donc B<C prend "0" et Non(B<C) prend "1". Par suite l'expression X*(B<C)+Y* NON(B<C) = Y* NON(B<C) = Y*1 = Y = **15**.
 
 - NON(X-D+C)OU D --> **1**  
 - A ET B OU NON 0 ET C ET NON D --> **1**
