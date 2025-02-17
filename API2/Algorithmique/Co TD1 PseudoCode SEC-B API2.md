@@ -6,21 +6,88 @@
 ---
 
 ## 🌟 **Exercice 01 :**  
-**Ecrire un Algorithme qui demande la valeur de n et calcul S=1+1/2+..+1/n**
-```
-ALGORITHME calcul_somme
-  n, i, S : ENTIER
-DEBUT
-  AFFICHER("Donner la valeur de n:")
-  LIRE(n)
-  S <- 0 /* Initialisation*/
-  POUR ( i<-1 , i<=n , i<-i+1 )
-    S <- S + 1/i
-  FIN POUR
-  AFFICHER("Voici la somme S=", S)
-FIN
+1. Le pseudo code 1 :
+  ```
+  Algorithme Algo1
+    A, B, C : ENTIER
+  DEBUT
+   A <- 5
+   B <- 3
+   C <- A + B
+   A <- 2
+   C <- B - A
+  FIN
+  ```
+  Les valeurs des variables A, B et C après l'éxecution de l'algorithme :
+  |      | A | B | C |
+  | :----:  |    :----:   |    :----:  |  :----:  |
+  | A <- 5  | 5 | ? | ? |
+  | B <- 3 | 5 | 3 | ? |
+  | C <- A + B | 5 | 3 | 8 |
+  | A <- 2 | 2 | 3 | 8 |
+  | C <- B - A | 2 | 3 | 1 |
 
-```
+   2. Le pseudo code 2 :
+  ```
+  Algorithme Algo2
+    A, B, C : ENTIER
+  DEBUT
+   A <- 3
+   B <- 10
+   C <- A + B
+   B <- A + B
+   A <- C
+  FIN
+  ```
+
+  Les valeurs des variables A, B et C après l'éxecution de l'algorithme :
+  |      | A | B | C |
+  | :----:  |    :----:   |    :----:  |  :----:  |
+  | A <- 3 | 3 | ? | ? |
+  | B <- 10 | 3 | 10 | ? |
+  | C <- A + B | 3 | 10 | 13 |
+  | B <- A + B | 3 | 13 | 13 |
+  | A <- C | 13 | 13 | 13 |
+
+   3. Le pseudo code 3 :
+  ```
+  Algorithme Algo3
+    A, B, C : ENTIER
+  DEBUT
+   A <- 2
+   B <- 1
+   C <- (5*(A + 2)*3)*(B + 4)
+   B <- C + 8/2
+   A <- C%2
+  FIN
+  ```
+
+  Les valeurs des variables A, B et C après l'éxecution de l'algorithme :
+  |      | A | B | C |
+  | :----:  |    :----:   |    :----:  |  :----:  |
+  | A <- 2 | 2 | ? | ? |
+  | B <- 1 | 2 | 1 | ? |
+  |C <- (5*(A + 2)*3)*(B + 4) | 2 | 1 | 300 |
+  | B <- C + 8/2| 2 | 304 | 300 |
+  | A <- C%2 | 0 | 304 | 300 |
+
+   4. Le pseudo code 4 :
+  ```
+  Algorithme Algo4
+    A, B, C : ENTIER
+  DEBUT
+   A <- B
+   B <- A
+   C <- A - B
+  FIN
+  ```
+
+  Les valeurs des variables A, B et C après l'éxecution de l'algorithme :
+  |      | A | B | C |
+  | :----:  |    :----:   |    :----:  |  :----:  |
+  | A <- B | B | ? | ? |
+  | B <- A | B | B | ? |
+  |C <- A - B | B | B | 0 |
 
 ## 🌟 **Exercice 02 :** 
 __Ecrire un Algorithme qui demande la valeur de n et calcul n!=1x2x..xn__
