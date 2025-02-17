@@ -133,6 +133,15 @@ AFFICHER(
   ```
 1.Simuler l'exécution de l'algorithme ci-contre en utilisant comme valeurs pour A, B et C : (5, 8, 9) puis (2, 6, 3) et enfin (3, 2, 1) (formuler les preuves).
 
-Cas 1 : On prend A = 5, B = 8 et C = 9, or on a A < B et puisque C > B  Alors **p = 5 , d = 8 et t = 9**
-Cas 2 : On prend A = 2, B = 6 et C = 3, or on a A < B et puisque C < B Alors **p = 2, d = 3 et t = 6**
-Cas 3 : On prend A = 3, B = 2 et C = 1, or on a A > B et puisque C < B Alors **p = 1, d = 2 et t = 3**
+- Cas 1 : On prend A = 5, B = 8 et C = 9, or on a A < B et puisque C > B  Alors **p = 5 , d = 8 et t = 9**
+- Cas 2 : On prend A = 2, B = 6 et C = 3, or on a A < B et puisque C < B Alors **p = 2, d = 3 et t = 6**
+- Cas 3 : On prend A = 3, B = 2 et C = 1, or on a A > B et puisque C < B Alors **p = 1, d = 2 et t = 3**
+
+2.En déduire l’utilité de cet algorithme et donner lui un nom plus significatif.
+
+- Utilité : Ordre croissant
+- Nom de l'algorithme : ordre_croissant_nbrs
+
+3.Déterminer le nombre d'affectations et de comparaisons engendrées par l’algorithme (une fourchette si ce nombre varie).
+
+Le nombre d'affectations : 3
