@@ -166,3 +166,10 @@ Le nombre d'affectations : 3
 - A ET B OU NON 0 ET C ET NON D
 - (A ET B OU NON 0 ET C) ET NON D
 - A ET B OU NON 0 OU C ET NON D
+
+
+## 🌟 **Exercice 04 :** 
+
+Ecrire un algorithme qui affiche la résistance équivalente à trois résistances R1, R2, R3 (type Réel). Les données sont introduites par l’utilisateurs et l’algorithme doit proposer un choix a l’utilisateur en fonction du branchement des résistances :
+- Si les résistances sont branchées en série : 𝑅𝑠é𝑟 = 𝑅1+𝑅2+𝑅3
+- Si les résistances sont branchées en parallèle : 𝑅𝑝𝑎𝑟=𝑅1×𝑅2×𝑅3/𝑅1𝑅2+𝑅1𝑅3+𝑅2𝑅3
