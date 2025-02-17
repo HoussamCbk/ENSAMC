@@ -145,3 +145,24 @@ AFFICHER(
 3.Déterminer le nombre d'affectations et de comparaisons engendrées par l’algorithme (une fourchette si ce nombre varie).
 
 Le nombre d'affectations : 3
+
+## 🌟 **Exercice 03 :** 
+
+1. Evaluer les expressions suivantes en supposant
+   A←20 B←5 C←-10 D←2 X←12 Y←15
+- X*(B<C)+Y* NON(B<C)
+
+Puisuqe B<C n'est pas vérifié or "False" donc B<C prend "0" et Non(B<C) prend "1". Par suite l'expression X*(B<C)+Y* NON(B<C) = Y* NON(B<C) = Y*1 = Y = **15**.
+
+- NON(X-D+C)OU D --> **1**  
+- A ET B OU NON 0 ET C ET NON D --> **1**
+- ((A ET B) OU (NON 0 ET C)) ET NON D --> **0**
+- ((A ET B) OU NON 0) OU (C ET (NON D)) --> **1**
+
+3. Eliminer les parenthèses qui ne sont pas nécessaires dans les expressions ci-dessus.
+
+- X*(B<C)+Y* NON(B<C)
+- NON(X-D+C)OU D
+- A ET B OU NON 0 ET C ET NON D
+- (A ET B OU NON 0 ET C) ET NON D
+- A ET B OU NON 0 OU C ET NON D
