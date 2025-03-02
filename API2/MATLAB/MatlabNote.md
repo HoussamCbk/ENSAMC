@@ -1,6 +1,7 @@
 ### Note de cours Matlab ( by CHOUBIK Houssam)
-----
+---
 ### TP N° 2 : Vecteurs & Matrices Séance 28-02-2025
+---
 
 ```
 rand(n)
@@ -215,3 +216,24 @@ kron(A,B) =
 ```
 **On obtient donc une matrice par blocs !**
 
+---
+
+### TP N° 3 : Représentation graphique Séance 28-02-2025
+---
+Point virgule " ; " c'est pour executer sans afficher !
+```
+>> a=4 , b=2
+
+a =
+
+     4
+
+
+b =
+
+     2
+
+>> a+b ;
+>> 
+```
+**NB ! : On remarque qui il y'a eu un ajout de la variable ans dans la fenetre Workspace.**
